@@ -9,6 +9,8 @@ import Gallery from './FunctionComponent/Gallery';
 import Login from './FunctionComponent/Login';
 import UseState from './FunctionComponent/UseState';
 import UseEffect from './FunctionComponent/UseEffect';
+import UseEffectAPI from './FunctionComponent/UseEffectAPI';
+
 
 
 function App() {
@@ -22,8 +24,9 @@ function App() {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/sign-up" element={<Signup />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/UseState" element={<UseState  />} />
-        <Route path="/UseEffect" element={<UseEffect  />} />
+        <Route path="/UseState" element={<UseState/>} />
+        <Route path="/UseEffect" element={<UseEffect/>} />
+        <Route path="/UseEffectAPI" element={<UseEffectAPI/>} />
       </Routes>
     </BrowserRouter>
   );

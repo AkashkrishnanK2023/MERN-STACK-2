@@ -9,7 +9,7 @@ const Navbar = () => {
         listStyleType: "none", 
         textAlign: "center"
     };
-    var [dropdown,showDropdown] = useState(true)
+    var [dropdown,showDropdown] = useState(false)
     const toggleDrop = () => {
         showDropdown(dropdown = !dropdown)
     }
@@ -25,12 +25,13 @@ const Navbar = () => {
                     <li><Link to="/Logout" className='link'>Logout</Link></li>
                     <li><Link to="/UseState" className='link'>UseState</Link></li>
                     <li><Link to="/UseEffect" className='link'>UseEffect</Link></li>
+                    <li><Link to="/UseEffectAPI" className='link'>UseEffectAPI</Link></li>
                     <div>
                     <span onMouseEnter={toggleDrop} onMouseLeave={toggleDrop}>Hooks</span>
                     {dropdown && (
                     <ul>
                         <li><Link to="/useState" target='_blank'>useState</Link></li>
-                        <li>useEffect</li>
+                        <li><Link to="/UseEffect" className='link'>UseEffect</Link></li>
                     </ul>)}
                     </div>
                 </ol>
