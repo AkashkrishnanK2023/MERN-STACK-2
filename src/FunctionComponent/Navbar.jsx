@@ -9,7 +9,7 @@ const Navbar = () => {
         listStyleType: "none", 
         textAlign: "center"
     };
-    var [dropdown,showDropdown] = useState(false)
+    var [dropdown,showDropdown] = useState(true)
     const toggleDrop = () => {
         showDropdown(dropdown = !dropdown)
     }
@@ -21,21 +21,25 @@ const Navbar = () => {
                     <li><Link to="/about" className='link'>About</Link></li>
                     <li><Link to="/gallery" className='link'>Gallery</Link></li>
                     <li><Link to="/contact" className='link'>Contact</Link></li>
-                    <li><Link to="/sign-up" className='link'>Sign-up</Link></li>
-                    <li><Link to="/Logout" className='link'>Logout</Link></li>
-                    <li><Link to="/UseState" className='link'>UseState</Link></li>
-                    <li><Link to="/UseEffect" className='link'>UseEffect</Link></li>
-                    <li><Link to="/UseEffectAPI" className='link'>UseEffectAPI</Link></li>
-                    <li><Link to="/UseEffectAPIimage" className="link">useAPIimg</Link></li> 
                     <div>
                     <span onMouseEnter={toggleDrop} onMouseLeave={toggleDrop}>Hooks</span>
                     {dropdown && (
                     <ul>
                         <li><Link to="/useState" target='_blank'>useState</Link></li>
-                        <li><Link to="/UseEffect" className='link'>UseEffect</Link></li>
-                       
+                        <li><Link to="/useEffect" target='_blank'>useEffect</Link></li>
+                        <li><Link to="/useEffectAPI" target='_blank'>useEffectAPI</Link></li>
+                        <li><Link to="/useEffectAPIimage" target='_blank'>useEffectAPIimage</Link></li>
+                        <li><Link to="/useReducer" target='_blank'>useReducer</Link></li>
+                        <li><Link to="/useRef" target='_blank'>useRef</Link></li>
+                        <li><Link to="/useMemo" target='_blank'>useMemo</Link></li>
+                        <li><Link to="/useCallback" target='_blank'>useCallback</Link></li>
                     </ul>)}
                     </div>
+                    <li><Link to="/sign-up" className='link'>Sign-up</Link></li>
+                    <li><Link to="/login" className='link'>Login</Link></li>
+                    <li><Link to="/logout" className='link'>Logout</Link></li>
+                    
+                    
                 </ol>
             </nav>
         </header>

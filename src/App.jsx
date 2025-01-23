@@ -11,6 +11,9 @@ import UseState from './FunctionComponent/UseState';
 import UseEffect from './FunctionComponent/UseEffect';
 import UseEffectAPI from './FunctionComponent/UseEffectAPI';
 import UseEffectAPIimage from './FunctionComponent/UseEffectAPIimage';
+import UseRef from './FunctionComponent/UseRef';
+import UseMemo from './FunctionComponent/UseMemo';
+import UseCallback from './FunctionComponent/UseCallback';
 
 
 
@@ -29,6 +32,9 @@ function App() {
         <Route path="/UseEffect" element={<UseEffect/>} />
         <Route path="/UseEffectAPI" element={<UseEffectAPI/>} />
         <Route path="/UseEffectAPIimage" element={<UseEffectAPIimage/>}></Route>
+        <Route path="/UseRef" element={<UseRef/>}></Route>
+        <Route path="/UseMemo" element={<UseMemo/>}></Route>
+        <Route path="/UseCallback" element={<UseCallback/>}></Route>
       </Routes>
     </BrowserRouter>
   );
