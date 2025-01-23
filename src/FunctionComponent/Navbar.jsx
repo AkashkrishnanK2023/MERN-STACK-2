@@ -26,12 +26,14 @@ const Navbar = () => {
                     <li><Link to="/UseState" className='link'>UseState</Link></li>
                     <li><Link to="/UseEffect" className='link'>UseEffect</Link></li>
                     <li><Link to="/UseEffectAPI" className='link'>UseEffectAPI</Link></li>
+                    <li><Link to="/UseEffectAPIimage" className="link">useAPIimg</Link></li> 
                     <div>
                     <span onMouseEnter={toggleDrop} onMouseLeave={toggleDrop}>Hooks</span>
                     {dropdown && (
                     <ul>
                         <li><Link to="/useState" target='_blank'>useState</Link></li>
                         <li><Link to="/UseEffect" className='link'>UseEffect</Link></li>
+                       
                     </ul>)}
                     </div>
                 </ol>

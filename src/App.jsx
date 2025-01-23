@@ -10,6 +10,7 @@ import Login from './FunctionComponent/Login';
 import UseState from './FunctionComponent/UseState';
 import UseEffect from './FunctionComponent/UseEffect';
 import UseEffectAPI from './FunctionComponent/UseEffectAPI';
+import UseEffectAPIimage from './FunctionComponent/UseEffectAPIimage';
 
 
 
@@ -27,6 +28,7 @@ function App() {
         <Route path="/UseState" element={<UseState/>} />
         <Route path="/UseEffect" element={<UseEffect/>} />
         <Route path="/UseEffectAPI" element={<UseEffectAPI/>} />
+        <Route path="/UseEffectAPIimage" element={<UseEffectAPIimage/>}></Route>
       </Routes>
     </BrowserRouter>
   );
