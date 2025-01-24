@@ -14,6 +14,9 @@ import UseEffectAPIimage from './FunctionComponent/UseEffectAPIimage';
 import UseRef from './FunctionComponent/UseRef';
 import UseMemo from './FunctionComponent/UseMemo';
 import UseCallback from './FunctionComponent/UseCallback';
+import ReactLifecycleMethods from './component/ReactLifecycleMethod';
+
+
 
 
 
@@ -35,6 +38,7 @@ function App() {
         <Route path="/UseRef" element={<UseRef/>}></Route>
         <Route path="/UseMemo" element={<UseMemo/>}></Route>
         <Route path="/UseCallback" element={<UseCallback/>}></Route>
+        <Route path="/ReactLifecycleMethod" element={<ReactLifecycleMethods/>}></Route>
       </Routes>
     </BrowserRouter>
   );
