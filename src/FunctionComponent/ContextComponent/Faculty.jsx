@@ -1,4 +1,4 @@
-import CoE from "./COE";
+import CoE from "./CoE";
 
 
 
