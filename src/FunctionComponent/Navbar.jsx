@@ -34,6 +34,8 @@ const Navbar = () => {
                         <li><Link to="/useMemo">useMemo</Link></li>
                         <li><Link to="/useCallback">useCallback</Link></li>
                         <li><Link to="/ReactLifecycleMethod">ReactLifecycleMethod</Link></li>
+                        <li><Link to="/Student">Student</Link></li>
+                        <li><Link to="/Memo">Memo</Link></li>
                     </ul>)}
                     </div>
                     <li><Link to="/sign-up" className='link'>Sign-up</Link></li>
