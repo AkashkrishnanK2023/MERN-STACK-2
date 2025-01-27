@@ -16,10 +16,11 @@ import UseMemo from './FunctionComponent/Hooks/UseMemo';
 import UseCallback from './FunctionComponent/Hooks/UseCallback';
 import ReactLifecycleMethods from './component/ReactLifecycleMethod';
 import Student from './FunctionComponent/Hooks/Student';
-import Memo from './FunctionComponent/Memorization/Memo';
-import LazyLoadingWithSuspense from './FunctionComponent/Memorization/LazyLoadingWithSuspense';
+import Memo from './FunctionComponent/Memoization/Memo';
+import LazyLoadingWithSuspense from './FunctionComponent/Memoization/LazyLoadingWithSuspense';
 import UseLocalStorage from './FunctionComponent/Hooks/UseLocalStorage';
-import Hoc from './FunctionComponent/ContextComponent/Hoc';
+import HoC from './FunctionComponent/HoC.jsx/HoC';
+
 
 
 
@@ -48,7 +49,7 @@ function App() {
         <Route path="/Memo" element={<Memo/>}></Route>
         <Route path="/LazyLoadingWithSuspense" element={<LazyLoadingWithSuspense/>}></Route>
         <Route path='/UseLocalStorage' element={<UseLocalStorage/>}></Route>
-        <Route path='/Hoc' element={<Hoc/>}></Route>
+        <Route path='/HoC' element={<HoC/>}></Route>
         
       </Routes>
     </BrowserRouter>

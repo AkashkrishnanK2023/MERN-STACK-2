@@ -37,7 +37,7 @@ const Navbar = () => {
                         <li><Link to="/Student">Student</Link></li>
                         <li><Link to="/UseLocalStorage">UseLocalStorage</Link></li>
                         <li><Link to="/Memo">Memo</Link></li>
-                        <li><Link class="link" to="/Hoc">Hoc</Link></li>
+                        <li><Link to='/lazyLoadingWithSuspense'>lazyLoadingWithSuspense</Link></li>
                     </ul>)}
                     </div>
                     <li><Link to="/sign-up" className='link'>Sign-up</Link></li>

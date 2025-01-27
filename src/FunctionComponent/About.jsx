@@ -1,6 +1,6 @@
 import { useState } from "react";   //importing useState from react
 const About = () => {
-    var[text,setText] = useState("")
+    var [text,setText]=useState("vijay")
     function handleText(event){
         setText(event.target.value);
     }
